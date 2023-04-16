@@ -6,7 +6,7 @@ ContextCLI is an AI-powered CLI tool that helps you to manage and organize your 
 
 ## 💾Installation
 
-To install ContextCLI, you need to have Node.js installed on your system. Follow steps mentioned in this blog to install ContextCLI. 
+To install ContextCLI, you need to have Node.js installed on your system. Follow steps mentioned in this [blog](https://ajinkyak423.hashnode.dev/contextcli) to install ContextCLI. 
 
 1) Clone the repository to your local machine:
 
@@ -59,7 +59,7 @@ This project is still a work in progress, and we're open to collaboration with f
 
 ## 🖇️ Blog post
 
-[ContextCli blog](https://linktodocumentation)
+[ContextCli blog](https://ajinkyak423.hashnode.dev/contextcli)
 
 
 ## 🚀 Connect with me 
