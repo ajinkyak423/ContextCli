@@ -54,16 +54,26 @@ concli p "your query for ai" -o output file name (with extention)
 ```
 ## 🖼️Demo
 
-use `concli` command with `p` flag to give command 
+1) use `concli` command with `p` flag to give command 
 note: give command in " " format.  
 
-![App Screenshot]([https://file.notion.so/f/s/754de913-3dc6-43c8-a16f-5447bd33f496/Untitled.png?id=18a55d62-84f0-425b-a32d-263033ed0fa0&table=block&spaceId=25f57f12-f918-48ed-9833-001e1a444472&expirationTimestamp=1681729206749&signature=n4-npMoI54RfuR1rYTRw2rn70cqxjVZd7uncAO_Dza4&downloadName=Untitled.png](https://drive.google.com/file/d/1Lz7wqiwBn_EQLfgNO7d10gEfcKtwSip8/view?usp=share_link))
+![App Screenshot](Demo/1.gif)
 
 
-use `-o` flag to store output in external file 
+use `-o` flag to store output in external file  
 
-![App Screenshot](https://file.notion.so/f/s/3435c907-d255-4fd1-89fa-2dfe9c5811ea/Untitled.png?id=6bf8ad09-630a-42df-a679-615aaa3f0b0b&table=block&spaceId=25f57f12-f918-48ed-9833-001e1a444472&expirationTimestamp=1681729560443&signature=qNJsoS2gkM7MQyBaKMSiMHPJoFIG8wvFeha4MUem92Q&downloadName=Untitled.png)
-note: output file will be stored in folder you are currently in.
+2) Post Thread to Showwcase.  
+
+![App Screenshot](https://github.com/ajinkyak423/ContextCli/blob/619cf524fffd8fc0f5d9bbf09a9d340c2d9b6ea5/Demo/post%20showw.gif)  
+
+3) Get trending shows and draft:  
+
+![App Screenshot](Demo/trend.gif)  
+
+4) Get your showwcase notifications:  
+
+![App Screenshot](Demo/nf.gif)  
+
 
 
 
