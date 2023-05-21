@@ -6,7 +6,7 @@ ContextCLI is an AI-powered CLI tool that helps you to manage and organize your 
 
 ## 💾Installation
 
-To install ContextCLI, you need to have Node.js installed on your system. Follow steps mentioned in this [blog](https://ajinkyak423.hashnode.dev/contextcli) to install ContextCLI. 
+To install ContextCLI, you need to have Node.js installed on your system. 
 
 1) Clone the repository to your local machine:
 
@@ -26,8 +26,26 @@ To install ContextCLI, you need to have Node.js installed on your system. Follow
 
 ```bash
   npm install
-
+  
 ```
+### Making concli command available globally in the machine:
+In order to use concli command available regardless of the folder you are in following steps need to be followed:  
+
+1) Make cli.js an executable file using the command:
+```bash
+  chmod +x cli.js
+  
+```
+to check it worked run the command:
+```bash
+ ll
+```
+
+2) Do the npm link in the folder where the cli.js file is present. This makes a global sim link.
+```bash
+  npm link
+```
+
 ## 🖲️Usage
 To use ContextCLI, simply open your terminal and type:
 
@@ -39,7 +57,7 @@ concli p "your query for ai" -o output file name (with extention)
 use `concli` command with `p` flag to give command 
 note: give command in " " format.  
 
-![App Screenshot](https://file.notion.so/f/s/754de913-3dc6-43c8-a16f-5447bd33f496/Untitled.png?id=18a55d62-84f0-425b-a32d-263033ed0fa0&table=block&spaceId=25f57f12-f918-48ed-9833-001e1a444472&expirationTimestamp=1681729206749&signature=n4-npMoI54RfuR1rYTRw2rn70cqxjVZd7uncAO_Dza4&downloadName=Untitled.png)
+![App Screenshot]([https://file.notion.so/f/s/754de913-3dc6-43c8-a16f-5447bd33f496/Untitled.png?id=18a55d62-84f0-425b-a32d-263033ed0fa0&table=block&spaceId=25f57f12-f918-48ed-9833-001e1a444472&expirationTimestamp=1681729206749&signature=n4-npMoI54RfuR1rYTRw2rn70cqxjVZd7uncAO_Dza4&downloadName=Untitled.png](https://drive.google.com/file/d/1Lz7wqiwBn_EQLfgNO7d10gEfcKtwSip8/view?usp=share_link))
 
 
 use `-o` flag to store output in external file 
@@ -55,11 +73,6 @@ Contributions are always welcome!
 
 This project is still a work in progress, and we're open to collaboration with fellow developers who are interested in contributing to this project
 
-
-
-## 🖇️ Blog post
-
-[ContextCli blog](https://ajinkyak423.hashnode.dev/contextcli)
 
 
 ## 🚀 Connect with me 
