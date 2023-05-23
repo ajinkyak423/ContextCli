@@ -12,23 +12,27 @@ To install ContextCLI, you need to have Node.js installed on your system.
 
 ```bash
   git clone https://github.com/ajinkyak423/ContextCli.git
-
 ```
 2) Navigate to the project directory:
 
 
 ```bash
   cd ContextCli
-
 ```
 
 3) Install the dependencies:
 
 ```bash
   npm install
-  
 ```
-### Making concli command available globally in the machine:
+4) Remove .example from .env file.  
+```bash
+  Rename .env.example To .env 
+```
+
+5) Add your [OpenAI](https://platform.openai.com/docs/api-reference) and [Showwcase](https://www.showwcase.com/settings/api-keys) API tokens in .env file.  
+
+### Making concli command available globally in the machine:
 In order to use concli command available regardless of the folder you are in following steps need to be followed:  
 
 1) Make cli.js an executable file using the command:
@@ -38,14 +42,16 @@ In order to use concli command available regardless of the folder you are in f
 ```
 to check it worked run the command:
 ```bash
- ll
+  ll
 ```
 
 2) Do the npm link in the folder where the cli.js file is present. This makes a global sim link.
 ```bash
   npm link
-```
+```  
 
+Note: To ensure a smooth transition when relocating the project repository folder to a different location on your machine,  
+it is recommended to run the `npm link` command after completing the move.  
 ## 🖲️Usage
 To use ContextCLI, simply open your terminal and type:
 
