@@ -27,7 +27,7 @@ To install ContextCLI, you need to have Node.js installed on your system.
 ```
 4) Remove .example from .env file.  
 ```bash
-  Rename .env.example To .env 
+  mv .env.example .env 
 ```
 
 5) Add your [OpenAI](https://platform.openai.com/docs/api-reference) and [Showwcase](https://www.showwcase.com/settings/api-keys) API tokens in .env file.  
