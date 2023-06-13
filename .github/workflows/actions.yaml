@@ -28,7 +28,7 @@ jobs:
       run: echo "API_TOKEN=${{ secrets.API_TOKEN }}" >> .env && echo "SHOWW_TOKEN=${{ secrets.SHOWW_TOKEN }}" >> .env
     
     - name: Make file executable
-      run: chmod +x new-filename
+      run: chmod +x cli.js
       
     - name: NPM link
       run: npm link
